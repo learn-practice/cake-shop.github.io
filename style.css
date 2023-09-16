@@ -1,0 +1,323 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+
+    height: auto;
+    width: 100vw;
+}
+.main{
+    
+    height: 100vh;
+    background-image: url(photo/background4.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* filter: blur(10px); */
+    /* margin-top: 20%; */
+
+}
+.main nav{
+    width: 100vw;
+    background-color: rgb(249, 227, 227);
+    
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    padding: 5px;
+}
+.main nav ul{
+    display: flex;
+    list-style-type: none;
+    float: right;
+}
+.main nav ul li {
+    margin-left: 20px;
+    /* padding: 10px; */
+}
+.main nav ul li:last-child
+{
+    margin-right: 30px;
+}
+
+.main  nav ul li a:link{
+    display: block;
+    /* margin-left: 80%;  */
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(234, 4, 107);
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.main nav ul li a:active
+{
+   display: block;
+    /* margin-left: 80%;  */
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(234, 4, 107);
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.main nav ul li a:hover {
+    background-color: rgb(254, 161, 161);
+    border-radius: 20px;
+    color: white;
+   
+}
+.main nav ul li a:visited
+{
+   display: block;
+    /* margin-left: 80%;  */
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(234, 4, 107);
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+ .heading
+ {
+    
+    padding-top: 15%;
+    padding-left: 55%;
+    
+ }
+ .heading h1{
+    font-size: 2em;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    color: rgb(234, 4, 107);
+ }
+ .heading p{
+    font-size: 1em;
+    color: rgb(234, 4, 107);
+    font-weight: 400;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+
+ /* about section */
+
+
+ .about-section-heading
+ {
+    position: relative;
+    top: 20px;
+    left: 40px;
+ }
+ .about-section-heading .about
+ {
+    padding-top: 20px;
+    width: 40%;
+    float: left;
+    color: rgb(234, 4, 107);
+    letter-spacing: 1px;
+ }
+ .about-section-heading .about h2{
+    margin-bottom: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    font-size: 1.8em;
+    text-transform: capitalize;
+ }
+ .about-section-heading .about p{
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.02em;
+ }
+ 
+ .about-section-heading img:first-child
+ {
+    margin-top: -50px;
+    margin-left: 100px;
+     height: 350px;
+     width: auto;    
+ }
+ .about-section-heading img:nth-child(2)
+ {
+    position: relative;
+    top: -90px;
+    height: 280px;
+    width: 40%;
+ }
+ .about-section-heading img:nth-child(3)
+ {
+    position: relative;
+    width: 30%;
+    height: 170px;
+    top: -87px;
+    left: 190px;
+    
+
+ }
+
+
+ /* product section */
+
+
+ .product h2{
+    display: flex;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    font-size: 1.8em;
+    text-transform: capitalize;
+    color: rgb(234, 4, 107);
+    justify-content: center;
+ }
+ .cheese-cake ,.chocolate ,.cup-cake
+ {
+    margin-top: 30px;
+    color: rgb(234, 4, 107);
+    letter-spacing: 1px;
+ }
+ .cheese-cake div ,.cup-cake div
+ {
+    margin-right: 40px;
+    width: 45%;
+    float: right;
+    margin-top: 50px;
+
+ }
+ .cheese-cake div p ,.chocolate div p,.cup-cake div p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 25px;
+ }
+ .cheese-cake div h3,.chocolate div h3,.cup-cake div h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-size: 1.5em;
+ }
+ .cheese-cake image
+ {
+   height: 400px;
+   width: auto;
+    
+ }
+ .chocolate div{
+    margin-left: 40px;
+    width: 45%;
+    float: left;
+    margin-top: 50px;
+ }
+ .chocolate
+ {
+   height: auto;
+ }
+
+ .product a:link{
+   margin-left: 80%;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   text-transform: capitalize;
+   font-size: 1.2em;
+   letter-spacing: 1px;
+   word-spacing: 1.5px;
+   font-weight:200;
+   text-decoration-color:rgb(234, 4, 107) ;
+   color:rgb(234, 4, 107);
+ }
+ .product a:hover
+ {
+   color: rgb(0, 204, 255);
+   text-decoration: underline;
+ }
+ .product a:active
+ {
+   color: rgb(234, 4, 107);
+ }
+ .product a:visited
+ {
+   color:rgb(174, 3, 80);
+ }
+ 
+
+ /* 
+ recipe section
+ */
+
+ .recipe
+ {
+   margin-top: 30px;
+   color:rgb(234, 4, 107) ;
+   
+ }
+ .recipe-section
+ {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 60%;
+   letter-spacing: 0.5px;
+   word-spacing: 1px;
+   text-align: left;
+   
+ }
+ .recipe-section h1
+ {
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    font-size: 1.8em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+ .recipe-section h3{
+   text-transform: capitalize;
+    font-size: 1.5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 20px;
+ }
+ .recipe-section h4{
+   text-transform: capitalize;
+    font-size: 1.2em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 10px;
+ }
+ .recipe-section ul
+ {
+   margin-bottom: 15px;
+   margin-left: 40px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   list-style-type: disc;
+ }
+ .recipe-section ul li{
+   margin-bottom: 1px;
+ }
+ 
+ .recipe-section>img{
+   width:90%;
+   height: auto;
+   margin-left:auto;
+   margin-right: auto;
+
+ }
+ .recipe a:link
+ {
+   margin-left: 80%;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   text-transform: capitalize;
+   font-size: 1.2em;
+   letter-spacing: 1px;
+   word-spacing: 1.5px;
+   font-weight:200;
+   text-decoration-color:rgb(234, 4, 107) ;
+   color:rgb(234, 4, 107);
+ }
+ .recipe a:active
+ {
+   color: rgb(168, 3, 77);
+ }
+ .recipe a:hover
+ {
+   color: rgb(0, 204, 255);
+ }
+ .recipe a:visited
+ {
+   color:rgb(251, 64, 148);
+ }
