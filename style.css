@@ -161,7 +161,11 @@ section{
 
  /* product section */
 
-
+.product
+{
+   height: auto;
+   margin-bottom: 70px;
+}
  .product h2{
     display: flex;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -171,13 +175,13 @@ section{
     color: rgb(234, 4, 107);
     justify-content: center;
  }
- .cheese-cake ,.chocolate ,.cup-cake
+ .cheese-cake ,.chocolate ,.cup-cake,.ice-cake,.pan-cake,.angel-cake,.black-forest,.Carrot-Cake,.Coconut-Cake,.Coffee-Cake,.Fruitcake,.Funfetti-Cake,.Lemon-Cake,.Marble-Cake,.Molten-Lava-Cake,.Opera-Cake,.pinapple-cake,.Red-Velvet-Cake,.Strawberry-Shortcake,.Tiramisu,.vanilla-cake
  {
     margin-top: 30px;
     color: rgb(234, 4, 107);
     letter-spacing: 1px;
  }
- .cheese-cake div ,.cup-cake div
+ .cheese-cake div ,.cup-cake div ,.pan-cake div ,.Red-Velvet-Cake div,.Lemon-Cake div,.pinapple-cake div,.black-forest div,.Coffee-Cake div,.Fruitcake div,.Marble-Cake div,.Molten-Lava-Cake div
  {
     margin-right: 40px;
     width: 45%;
@@ -185,23 +189,29 @@ section{
     margin-top: 50px;
 
  }
- .cheese-cake div p ,.chocolate div p,.cup-cake div p{
+ .cheese-cake div p ,.chocolate div p,.cup-cake div p ,.ice-cake div p,.pan-cake div p,.info{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 25px;
+    
  }
- .cheese-cake div h3,.chocolate div h3,.cup-cake div h3{
+ .cheese-cake div h3,.chocolate div h3,.cup-cake div h3,.ice-cake div h3 ,.pan-cake div h3,.design .name{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-transform: capitalize;
     margin-bottom: 30px;
     font-size: 1.5em;
  }
- .cheese-cake image
+ .cheese-cake image ,.design img
  {
    height: 400px;
    width: auto;
     
  }
- .chocolate div{
+ .ice-cake img ,.pan-cake img{
+   height: 450px;
+   width: auto;
+   margin-left: 50px;
+ }
+ .chocolate div ,.ice-cake div,.vanilla-cake div,.Carrot-Cake div,.Strawberry-Shortcake div,.Coconut-Cake div,.Tiramisu div,.Opera-Cake div,.angel-cake div,.Funfetti-Cake div{
     margin-left: 40px;
     width: 45%;
     float: left;
@@ -257,7 +267,7 @@ section{
    letter-spacing: 0.5px;
    word-spacing: 1px;
    text-align: left;
-   
+   margin-bottom: 40px;
  }
  .recipe-section h1
  {
@@ -299,6 +309,7 @@ section{
  }
  .recipe a:link
  {
+   
    margin-left: 80%;
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    text-transform: capitalize;
@@ -321,3 +332,97 @@ section{
  {
    color:rgb(251, 64, 148);
  }
+
+
+
+/* contact section */
+
+.contact
+{
+   height: 90vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.contact-box
+{
+   width: 30%;
+   color: rgb(234, 4, 107);
+   text-transform: capitalize;
+   /* border: 1px solid; */
+   padding: 10px;
+}
+.contact h2
+{
+   text-align: center;
+   margin-bottom: 20px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.contact label
+{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   display: block;
+   margin-bottom: 10px;
+   margin-top: 20px;
+}
+.contact input
+{
+   border: none;
+   border-bottom: 1px solid;
+   border-bottom-color: rgb(234, 4, 107);
+   width: 100%;
+   color: rgb(234, 4, 107);
+   font-size: 1em;
+}
+.contact input:focus ,.contact textarea:focus
+{
+   outline: none;
+}
+.contact textarea
+{
+   border-color:rgb(234, 4, 107) ;
+   color: rgb(234, 4, 107);
+   width: 100%;
+   height: 70px;
+   padding: 2px;
+   resize: none;
+}
+input[value="submit"]
+{
+   width: fit-content;
+   float: right;
+   margin: 30px 10px;
+   padding: 10px 20px;
+   text-transform: capitalize;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 600;
+   border: 1px solid rgb(251, 64, 148);
+   background-color: rgb(234, 4, 107);
+   color: white;
+   border-radius: 20px;
+}
+input[value="submit"]:hover
+{
+   box-shadow: 0px 0px 5px rgb(234, 4, 107);
+}
+
+/* footer */
+
+footer
+{
+   width: 100%;
+   background-color: rgb(249, 227, 227);
+   color: rgb(234, 4, 107);
+   padding: 20px;
+}
+footer p{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 1.2em;
+   font-family: Arial, Helvetica, sans-serif;
+   letter-spacing: 0.5px;
+   word-spacing: 1.5px;
+   text-transform: capitalize;
+   font-weight: 600;
+}
